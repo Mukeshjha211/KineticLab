@@ -1,0 +1,9 @@
+.testimonial img {
+    height: 276px;
+    width: auto;
+    margin-top: 5px;
+    flex: 1;
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.3, 0.5);
+  }

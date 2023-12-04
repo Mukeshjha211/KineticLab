@@ -1,0 +1,40 @@
+/* Footer.css */
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3498db; /* Blue color for footer */
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .footer .details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .contact-us,
+  .footer .business-hours {
+    margin-bottom: 20px;
+  }
+  
+  .footer .contact-us span,
+  .footer .business-hours li {
+    color: #fff;
+    margin: 5px;
+  }
+  
+  .footer .contact-us span:hover,
+  .footer .business-hours li:hover {
+    text-decoration: underline;
+  }
+  
+  .footer h3 {
+    color: #ffff; /* Blue color for headings */
+  }
+  

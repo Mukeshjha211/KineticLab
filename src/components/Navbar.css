@@ -1,0 +1,47 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.nav-bar {
+    border-radius: 33px;
+    background-color: #3498db;
+    /* Blue color */
+    overflow: hidden;
+}
+
+.logo img {
+    margin-left: -229px;
+    border-radius: 107px;
+    height: 120px;
+    width: auto;
+    margin-top: 5px;
+}
+
+
+.nav-bar a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.nav-bar a:hover {
+    background-color: #2980b9;
+    /* Darker blue on hover */
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-bar a {
+        float: none;
+        width: 100%;
+    }
+}
